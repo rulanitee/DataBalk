@@ -1,0 +1,11 @@
+﻿namespace DataBalk.Assessment.Services.Models
+{
+    public class TaskViewModel
+    {
+        public long Id { get; set; }
+        public string Assignee { get; set; } = string.Empty;
+        public string Title { get; set; } = string.Empty;
+        public string Description { get; set; } = string.Empty;
+        public DateTime DueDate { get; set; }
+    }
+}
