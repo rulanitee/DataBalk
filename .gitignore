@@ -190,6 +190,8 @@ ServiceFabricBackup/
 *.mdf
 *.ldf
 *.ndf
+*.db-shm
+*.db-wal
 
 # CodeRush
 .cr/
